@@ -205,13 +205,14 @@ body{
 #contato .email img{
     position: absolute;
     left:30px;
-    top:-30px;
+    top: -30px;
 }
 #contato .email form{
     width: 60%;
     display:flex;
 }
-#contato .email .form-control{
+#contato .email .form-control,
+#contato .email .form-control::placeholder{
     background:none;
     color: #fff;
 }
